@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mjwalf-test"
+  description: "test-demo"
+  annotations:
+    github.com/project-slug: cultureamp/mjwalf-test
+    backstage.io/techdocs-ref: url:https://github.com/cultureamp/mjwalf-test
+    buildkite.com/project-slug: culture-amp/mjwalf-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: mjwalf
